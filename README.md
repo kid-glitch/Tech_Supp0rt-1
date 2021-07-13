@@ -58,4 +58,20 @@ RCE thành công
 
 Tìm cách up root từ user www-data:
 
+cat /var/www/html/wordpress/wp-config.php;ls -l
 
+Đọc file lưu trữ database của wps để tìm kiếm password
+
+![image](https://user-images.githubusercontent.com/72652376/125460661-6a4e95b0-d350-467b-8879-f3a742e2d39d.png)
+
+![image](https://user-images.githubusercontent.com/72652376/125461225-e73ff2c3-3f6f-449b-aa6d-8b15c9048199.png)
+
+Có 1 user tìm được. Thử đăng nhập vào user này xem có được không:
+
+![image](https://user-images.githubusercontent.com/72652376/125461529-f043f889-5fb5-4756-974d-1446952465d5.png)
+
+Thành công :v 
+
+Kiểm tra xem có quyền gì đặc biệt không
+
+![image](https://user-images.githubusercontent.com/72652376/125461610-32c055be-c972-4fee-a02e-381b103e3540.png)
